@@ -9,15 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/dark_theme.css">
 </head>
 
-<body>
+  <body data-theme="light">
   <header class="header">
     <div class="container">
       <div class="header-items">
         <nav class="navigation">
-          <a class="header-nav-links btn-home" href="./index.html">Home</a>
-          <a class="header-nav-links" href="./favorites.html">Favorites</a>
+          <a class="header-nav-links nav-link home-marg" href="./index.html">Home</a>
+          <a class="header-nav-links nav-link" href="./favorites.html">Favorites</a>
         </nav>
         <a href="./index.html" class="logo-tasty">tasty<span class="logo-treats">treats.</span></a>
         <div class="header-icons">
@@ -47,8 +48,8 @@
         </svg>
       </button>
       <ul class="mob-menu-list">
-        <li><a class="header-list-item" href="./index.html">Home</a></li>
-        <li><a class="header-list-item" href="./favorites.html">Favorites</a></li>
+        <li><a class="header-list-item mob-nav-link" href="./index.html">Home</a></li>
+        <li><a class="header-list-item mob-nav-link" href="./favorites.html">Favorites</a></li>
       </ul>
       <div>
         <label class="switch">
@@ -58,8 +59,9 @@
       </div>
     </div>
   </header>
-  <script src="./js/headerActive.js"></script>
+  <script src="./js/activePage.js"></script>
   <script src="./js/mobMenu.js"></script>
+  <script src="./js/darkTheme.js"></script>
 </body>
 
 </html>

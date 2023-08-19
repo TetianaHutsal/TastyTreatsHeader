@@ -1,13 +1,9 @@
-:root {
-  --theme-dark: #161616;
-  --theme-light: #f8f8f8;
-}
+
 
 html,
-body{
+body {
   height: 100%;
 }
-
 
 h1,
 h2,
@@ -48,7 +44,7 @@ img {
   height: auto;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -59,13 +55,13 @@ select {
   font: inherit;
 }
 
-.main-content{
+.main-content {
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.main{
+.main {
   flex: 1 1 auto;
 }
 
@@ -77,14 +73,12 @@ select {
   text-decoration: none;
 }
 
-
 .container {
   min-width: 320px;
   margin: 0 auto;
   max-width: 375px;
   padding: 0 20px;
 }
-
 
 @media screen and (min-width: 768px) {
   .container {
@@ -98,24 +92,23 @@ select {
     max-width: 1104px;
     padding: 0 12px;
   }
-
 }
 
 .header {
   padding-top: 24px;
   @media screen and (min-width: 768px) {
-      padding-top: 28px;
+    padding-top: 28px;
   }
   @media screen and (min-width: 1280px) {
-      padding-top: 40px;
+    padding-top: 40px;
   }
 }
 
 .navigation {
   display: none;
-  @media screen and (min-width:768px) {
-      display: inline;
-      position: relative;
+  @media screen and (min-width: 768px) {
+    display: inline;
+    position: relative;
   }
 }
 
@@ -123,10 +116,21 @@ select {
   position: relative;
 }
 
+.navigation a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #9bb537;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
 
 .navigation a:hover::before,
 .navigation a:focus::before {
-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .header-nav-links {
@@ -138,26 +142,26 @@ transform: scaleX(1);
 }
 
 .header-nav-links:hover,
-.header-nav-links:focus{
-  color: #9BB537;
-  transition: 250ms cubic-bezier(.4,0,.2,1);
+.header-nav-links:focus {
+  color: #9bb537;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-home{
+.home-marg {
   margin-right: 16px;
 }
 
 .logo-tasty {
-  color: #9BB537;
+  color: #9bb537;
   font-size: 16px;
   font-family: Inter;
   font-weight: 600;
-  line-height: calc(18/16);
+  line-height: calc(18 / 16);
   letter-spacing: -0.64px;
-  @media screen and (min-width:768px){
-      font-size: 18px;
-      line-height: calc(20/18);
-      letter-spacing: -0.72px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(20 / 18);
+    letter-spacing: -0.72px;
   }
 }
 
@@ -166,20 +170,20 @@ transform: scaleX(1);
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
-  line-height: calc(18/16);
+  line-height: calc(18 / 16);
   letter-spacing: -0.64px;
-  @media screen and (min-width:768px) {
-      font-size: 18px;
-      line-height: calc(20/18);
-      letter-spacing: -0.72px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(20 / 18);
+    letter-spacing: -0.72px;
   }
 }
 
 .header-items {
   display: flex;
   align-items: center;
-  @media screen and (min-width:768px) {
-      justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
   }
 }
 
@@ -188,8 +192,8 @@ transform: scaleX(1);
   align-items: center;
   gap: 14px;
   margin-left: auto;
-  @media screen and (min-width:768px) {
-      margin-left: 0;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
   }
 }
 
@@ -204,24 +208,22 @@ transform: scaleX(1);
   padding: 0;
   margin: 0;
   @media screen and (min-width: 768px) {
-      display: none;
+    display: none;
   }
 }
 
-.mobile-menu-icon{
+.mobile-menu-icon {
   stroke: #050505;
 }
 
-
 .header-switch {
-      position: relative;
-      display: flex;
-      width: 47px;
-      height: 20px;
-      border-radius: 10px;
-      box-shadow: 7px 5px 15px 0px #A09EA066;
-  }
-
+  position: relative;
+  display: flex;
+  width: 47px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 5px 15px 0px #a09ea066;
+}
 
 .header-switch input {
   display: none;
@@ -252,13 +254,13 @@ transform: scaleX(1);
   width: 17px;
   left: 2px;
   bottom: 2px;
-  background-color: var(--theme-light);
-  transition: 0.4s; 
+  background-color: #f8f8f8;
+  transition: 0.4s;
   border-radius: 50%;
 }
 
 .header-switch input:checked + .header-slider {
-  background: linear-gradient(#9BB537, #9BB537);
+  background: linear-gradient(#9bb537, #9bb537);
   box-shadow: 4px 4px 15px rgba(243, 243, 243, 0.25);
 }
 
@@ -276,13 +278,13 @@ transform: scaleX(1);
   position: fixed;
   z-index: 999;
   top: 0;
-  
+
   right: 0;
   transform: translateX(300%);
   transition: transform 0.3s ease-in-out;
 
   @media screen and (min-width: 768px) {
-      display: none;
+    display: none;
   }
 }
 
@@ -309,7 +311,7 @@ transform: scaleX(1);
   transform: scale(1.2);
 }
 
-.mob-menu-close-icon{
+.mob-menu-close-icon {
   stroke: white;
 }
 
@@ -332,9 +334,7 @@ transform: scaleX(1);
   justify-content: center;
 }
 
-
-
-.active-header-list-item{
+.active-header-list-item {
   font-weight: 500;
 }
 
@@ -357,7 +357,7 @@ transform: scaleX(1);
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(248,248,248,.6);
+  background-color: rgba(248, 248, 248, 0.6);
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -369,21 +369,21 @@ transform: scaleX(1);
   width: 15px;
   left: 4px;
   bottom: 3px;
-  background-color: var(--theme-light);
+  background-color: #f8f8f8;
   transition: 0.4s;
   border-radius: 50%;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background: #9bb537;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   transform: translateX(26px);
   box-shadow: 4px 4px 15px rgba(243, 243, 243, 0.25);
 }
 
-.current::after{
+.current::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -393,11 +393,37 @@ input:checked+.slider:before {
   background-color: #9bb537;
 }
 
-.nav-link-active{
+.nav-link-active {
   color: #9bb537;
 }
 
-.shopping-icon-use{
+.nav-link-active .current {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #9bb537;
+}
+
+.mob-nav-link-active {
+  color: #050505;
+  position: relative;
+}
+
+.mob-nav-link-active::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #050505;
+  transition: background-color 0.3s;
+}
+
+
+
+.shopping-icon-use {
   fill: #f8f8f8;
   stroke: #050505;
 }
