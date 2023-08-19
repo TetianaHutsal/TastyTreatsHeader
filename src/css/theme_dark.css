@@ -1,0 +1,288 @@
+
+
+body.dark-theme{
+    background-color: var(--theme-dark);
+}
+
+.dark-theme .hero-modal-close-icon{
+    stroke: #fff;
+}
+.dark-theme .reciepe-close-icon{
+    stroke: #fff;
+}
+.dark-theme .rating-close-icon-svg{
+    stroke: #fff;
+}
+
+.dark-theme .logo-second {
+    color: #fff;
+}
+
+.dark-theme .header-nav-links{
+    color: #fff;
+}
+
+.dark-theme .nav-link-active{
+    color: #9bb537;
+}
+
+.dark-theme .shopping-icon-use{
+    fill: #050505;
+    stroke: #fff;
+}.dark-theme .logo-second {
+    color: #fff;
+}
+
+.dark-theme .header-nav-links{
+    color: #fff;
+}
+
+.dark-theme .nav-link-active{
+    color: var(--green);
+}
+
+.dark-theme .shopping-icon-use{
+    fill: var(--black);
+    stroke: #fff;
+}
+
+.dark-theme .mobile-menu-icon{
+    stroke: #fff;
+}
+
+.dark-theme .mobile-menu{
+    background-color: var(--black);
+}
+
+.dark-theme .active-header-list-item{
+    color: var(--green);
+}
+
+
+.dark-theme .event-title{
+    color: #fff;
+}
+.dark-theme .event-text{
+    color: #fff;
+}
+.dark-theme .event-order{
+    background-color: transparent;
+    color: #fff;
+}
+.dark-theme span.swiper-pagination-bullet{
+    background-color: #fff;
+}
+.dark-theme span.swiper-pagination-bullet-active{
+    background: var(--green);
+}
+
+.dark-theme .all-category-button.active {
+    border: 1px solid var(--green);
+    background-color: var(--green);
+    color: var(--white-w);
+}
+.dark-theme .all-category-button {
+    border: 1px solid var(--gray-border-d);
+    background-color: transparent;
+    color: var(--gray-title-d);
+}
+.dark-theme .category-btn{
+    color: var(--gray-ul-d);
+}
+.dark-theme ::-webkit-scrollbar-thumb{
+    background-color: var(--gray-border-d);
+}
+.dark-theme .custom-select .options-list {
+    background-color: var(--black);
+
+}
+.dark-theme .option-item{
+    color: var(--gray-ul-d);
+}
+.dark-theme .option:hover .option-item {
+    color: #fff;
+}
+
+
+.dark-theme .elem-prev{
+    color: var(--gray-title-d);
+}
+
+.dark-theme .elem-prev-active{
+    color: #fff;
+  }
+
+.dark-theme .text-search{
+    color: var(--gray-title-d);
+}
+
+.dark-theme .item-ingridienst{
+    background-color: transparent;
+    border-color: var(--gray-border-d);
+}
+
+.dark-theme .btn-search .svg-search-icon{
+    fill: var(--gray-title-d);
+}
+
+.dark-theme .btn-cancel .svg-cancel-icon{
+    stroke: var(--grey-descrip-d);
+}
+
+.dark-theme .search-arrow{
+    fill: var(--gray-title-d);
+}
+.dark-theme .selected-option{
+    border-color: var(--gray-border-d);
+}
+.dark-theme .custom-select .selected-option{
+    background-color: transparent;
+}
+.dark-theme .inp-search{
+    background-color: transparent;
+    border-color: var(--gray-border-d);
+    color: #fff;
+}
+.dark-theme .svg-search{
+    fill: var(--gray-title-d);
+}
+
+.dark-theme .custom-select.open .options-list {
+  border-top: 8px solid var(--black);
+  border-bottom: 8px solid var(--black);
+  border-right: 4px solid var(--black);
+  display: block;
+}
+
+
+.dark-theme .popular-recipes{
+    color: #fff;
+}
+.dark-theme .popular-title{
+    color: #fff;
+}
+.dark-theme .popular-text{
+    color: var(--grey-descrip-d);
+}
+
+
+.dark-theme .card_title{
+    color: #fff;
+}
+.dark-theme .card_description{
+    color: #fff;
+}
+
+.dark-theme .star-modal{
+    fill: var(--gray-star-d1);
+}
+
+.dark-theme .star-rating{
+    fill: var(--gray-star-d1);
+}
+
+.dark-theme .filled {
+    fill: var(--yellow-star);
+    opacity: 1;
+  }
+
+.dark-theme .card_btn{
+    color: #fff;
+}
+
+
+.dark-theme .tui-page-btn{
+    color: #fff;
+}
+
+
+.dark-theme .no-recipes{
+    color: #fff;
+}
+
+.dark-theme .categories-btn {
+    background-color: transparent;
+    color: var(--gray-ul-d);
+    border-color: var(--gray-border-d);
+}
+
+
+.dark-theme .modal{
+    background-color: var(--black);
+}
+.dark-theme .order-modal-title{
+    color: #fff;
+}
+.dark-theme .order-form-label{
+    color: var(--gray-title-d);
+}
+.dark-theme .order-form-input{
+    background-color: transparent;
+    color: #fff;
+}
+.dark-theme .order-form-comment{
+    background-color: transparent;
+    color: #fff;
+}
+
+
+.dark-theme .modal-recipe{
+    background-color: var(--black);
+}
+.dark-theme .title-recipe{
+    color: #fff;
+}
+.dark-theme .rating{
+    color: var(--gray-title-d);
+}
+.dark-theme .time-cooking{
+    color: var(--gray-title-d);
+}
+.dark-theme .ingridient{
+    color: #fff;
+}
+.dark-theme .portion{
+    color: var(--gray-title-d);
+}
+.dark-theme .list-item::after{
+    border-color: var(--gray-star-d);
+}
+.dark-theme .teg-item{
+    color: #fff;
+    border-color: var(--gray-border-d);
+}
+.dark-theme .recipe-text{
+    color:var(--grey-descrip-d);
+}
+.dark-theme .btn-giveARating{
+    background-color: transparent;
+    color: #fff;
+}
+
+
+.dark-theme .rating-modal{
+    background-color: var(--black);
+}
+.dark-theme .block-star-txt{
+    color: var(--white-d);
+}
+.dark-theme .rating-block-txt{
+    color: var(--grey-descrip-d);
+}
+.dark-theme .rating-email-inp{
+    background-color: transparent;
+    border-color: var(--gray-border-d);
+    color: var(--white-d);
+}
+.dark-theme .rating-email-inp::placeholder{
+    color: var(--gray-title-d);
+}
+
+
+.dark-theme .team-modal{
+    background-color: var(--gray-slider-desc-d);
+}
+.dark-theme .team-title{
+    color: #a28561;
+}
+
